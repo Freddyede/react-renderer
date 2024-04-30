@@ -1,3 +1,6 @@
+<center>
+
+
 # <u>react-renderer</u> :
 
 <img src="assets/images/logo.png" width="500" height="500">
@@ -11,3 +14,5 @@
 ## <u>glossaire</u>
 
 - test
+
+</center>
