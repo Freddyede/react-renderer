@@ -1,4 +1,4 @@
-# <center> <u>react-renderer</u> :</center>
+# react-renderer:
 
 <img src="assets/images/logo.png" width="500" height="500">
 
