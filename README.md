@@ -1,4 +1,4 @@
-<center>
+<p align="center">
 
 
 # <u>react-renderer</u> :
@@ -15,4 +15,4 @@
 
 - test
 
-</center>
+</p>
