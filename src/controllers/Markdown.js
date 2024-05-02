@@ -10,26 +10,21 @@ export class Markdown extends MarkdownHtmlParser {
      * Charge readBlocs or readLines if this.md is bloc or simple text
      */
     logicalSystems() {
-        if(this.verifyIsMarkdown()){
-            if(this.md.endsWith("\n\r\n\r")){
-                this.md = this.md.split("\n\n");
-                console.log(this.md.split("\n\n"));
+        if(this.verifyIsMarkdown() && this.md.includes("\n\n")){
                 this.readBlocs();
-            } else {
-                this.readLines(this.md);
-            }
+        } else {
+            this.readLines();
         }
     }
 
     readBlocs() {
-        for (const element of this.md) {
+        for (const element of this.md.split('\n\n')) {
             this.readLines(element);
         }
     }
 
     readLines(element) {
         console.log(element);
-        console.log('READ LINE: ', element);
     }
 
 
