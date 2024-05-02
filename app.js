@@ -1,7 +1,7 @@
 import {Markdown} from "./src/controllers/Markdown.js";
 
-const md = `# Title`;
+const md = `# Title
 
-export const markdown = new Markdown(md);
+- lists`;
 
-console.log(markdown.getHtml());
+new Markdown(md);
